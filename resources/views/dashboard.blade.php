@@ -5,16 +5,14 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 <body>
-    <h1>Dashboard</h1>
-
-    <div>
-        <h2>Data Mahasiswa</h2>
-        <p><a href="{{ route('mahasiswa.index') }}">Lihat Data Mahasiswa</a></p>
-    </div>
-
-    <div>
-        <h2>Data Matakuliah</h2>
-        <p><a href="{{ route('matakuliah.index') }}">Lihat Data Matakuliah</a></p>
+    <div id="dashboard-menu">
+        <h1>Dashboard</h1>
+        <div class="menu">
+            <ul class="horizontal-list">
+                <li><p><a href="{{ route('mahasiswa.index') }}">Lihat Data Mahasiswa</a></p></li>
+                <li><p><a href="{{ route('matakuliah.index') }}">Lihat Data Matakuliah</a></p></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>

@@ -1,58 +1,80 @@
 /* Style untuk header */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  /* Style untuk tabel */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: px;
-  }
-  
-  table th, table td {
-    border: 1px solid #ccc;
-    padding: 8px;
-    text-align: left;
-  }
-  
-  table th {
-    background-color: #f2f2f2;
-  }
-  
-  /* Style untuk tombol aksi */
-  button, a {
-    padding: 6px 10px;
-    background-color: #007bff;
-    border: none;
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 4px;
-  }
-  
-  button:hover, a:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Style untuk form */
-  form {
-    margin-bottom: 20px;
-  }
-  
-  form input[type="text"], form button[type="submit"] {
-    padding: 8px;
-    margin: 5px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-  }
-  
-  form input[type="text"]:focus {
-    outline: none;
-    border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-  }
-  
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style untuk tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: px;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+/* Style untuk tombol aksi */
+button, a {
+  padding: 6px 40px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover, a:hover {
+  background-color: #0056b3;
+}
+
+/* Style untuk form */
+form {
+  margin-bottom: 20px;
+}
+
+form input[type="text"], form button[type="submit"] {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+h1 {
+  text-align: center;
+}
+
+#dashboard-menu {
+  margin: auto;
+  align-content: center;
+  width: 50%;
+  border: 3px solid #95C8D4;
+  padding: 10px;
+}
+
+.menu ul.horizontal-list {
+  display: flex;
+  justify-content: center; /* Horizontally center items */
+  padding: 0;
+}
+
+.menu ul.horizontal-list li {
+  list-style: none;
+  margin: 0 10px; /* Adjust margin as needed */
+}
