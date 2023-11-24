@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 <body>
-    <div id="dashboard-menu">
+    <div class="content">
         <h1>Dashboard</h1>
         <div class="menu">
             <ul class="horizontal-list">

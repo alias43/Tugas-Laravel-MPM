@@ -60,7 +60,7 @@ h1 {
   text-align: center;
 }
 
-#dashboard-menu {
+.content {
   margin: auto;
   align-content: center;
   width: 50%;
